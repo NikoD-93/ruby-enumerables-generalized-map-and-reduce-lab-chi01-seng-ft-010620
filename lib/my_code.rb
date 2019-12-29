@@ -1,6 +1,6 @@
 # Your Code Here
 def map (array) {
-  |array| array * -1
+  |a| a * -1
 }
-array
+
   
