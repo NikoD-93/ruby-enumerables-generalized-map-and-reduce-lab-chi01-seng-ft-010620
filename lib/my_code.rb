@@ -10,6 +10,7 @@ end
 end
 
 def reduce(array)
+  if 
   i = 0 
   total = 0 
   while i < array.length do
