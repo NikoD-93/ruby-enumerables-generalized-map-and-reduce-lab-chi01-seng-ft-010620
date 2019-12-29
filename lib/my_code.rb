@@ -5,8 +5,8 @@ def map (Array)
   while i < Array.length do  
     yield(array[i])
     i += 1 
-  end 
   new << array[i]
+end 
   new
 end
 
