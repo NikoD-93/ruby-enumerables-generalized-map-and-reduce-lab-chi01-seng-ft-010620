@@ -9,7 +9,7 @@ end
   new
 end
 
-def reduce(array , startpoint= nil)
+def reduce(array, startpoint= nil)
   if startpoint 
   i = 0 
   total = startpoint 
