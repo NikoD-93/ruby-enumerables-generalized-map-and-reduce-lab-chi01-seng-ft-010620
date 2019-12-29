@@ -1,7 +1,7 @@
 # Your Code Here
 def map (array) 
   new = []
-  yield array
+  yield 
   new << array
   new
 end
