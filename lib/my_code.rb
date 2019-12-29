@@ -1,7 +1,8 @@
 # Your Code Here
 def map (array) {
-  |a| a * -1
+  yield
 }
-array
 
+map(array) {|a| a * -1
+} 
   
