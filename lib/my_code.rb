@@ -5,7 +5,7 @@ def map (array)
   while i < array.length do  
     yield(array[i])
     i += 1 
-  new << array[i]
+  new.push(array[i])
 end 
   new
 end
