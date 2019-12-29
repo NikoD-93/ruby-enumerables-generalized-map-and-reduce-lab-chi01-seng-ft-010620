@@ -4,7 +4,7 @@ def map (array)
   i = 0 
   while i < array.length do  
   i += 1 
-  new.push( yield(array[i]))
+  new.push(yield(array[i]))
 end 
   new
 end
