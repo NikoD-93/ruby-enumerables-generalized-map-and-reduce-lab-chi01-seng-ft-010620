@@ -4,6 +4,7 @@ def map (Array)
   i = 0 
   while i < Array.length do  
     yield(array[i])
+    i += 1 
   end 
   new << array[i]
   new
