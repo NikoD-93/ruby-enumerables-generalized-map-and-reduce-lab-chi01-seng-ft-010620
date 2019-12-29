@@ -2,5 +2,6 @@
 def map (array) {
   |a| a * -1
 }
+array
 
   
