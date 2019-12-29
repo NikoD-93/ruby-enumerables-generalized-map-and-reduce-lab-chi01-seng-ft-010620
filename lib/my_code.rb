@@ -13,8 +13,10 @@ def reduce(array , startpoint= nil)
   if startpoint 
   i = 0 
   total = startpoint 
-else 
+else
+  i = 1
   total = array[0]
+end 
   while i < array.length do
     total +=  yield(array[i])
     i += 1 
