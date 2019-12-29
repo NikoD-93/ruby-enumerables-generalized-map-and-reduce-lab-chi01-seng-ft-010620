@@ -9,3 +9,7 @@ end
   new
 end
 
+def reduce
+
+
+end 
