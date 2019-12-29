@@ -1,2 +1,5 @@
 # Your Code Here
-def map (array, block)
+def map (array, block) {
+  |
+}
+  
