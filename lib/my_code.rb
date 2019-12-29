@@ -1,8 +1,8 @@
 # Your Code Here
-def map (array) 
+def map (Array) 
   new = []
   i = 0 
-  while i < array.length do  
+  while i < Array.length do  
     yield(array[i])
   end 
   new << array[i]
