@@ -9,10 +9,12 @@ end
   new
 end
 
-def reduce(array)
-  if 
+def reduce(array , startpoint= nil)
+  if startpoint 
   i = 0 
-  total = 0 
+  total = startpoint 
+else 
+  total = array[0]
   while i < array.length do
     total +=  yield(array[i])
     i += 1 
